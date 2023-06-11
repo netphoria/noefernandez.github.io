@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netphoria</title>
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      body {
+        font-family: 'Shippori Antique', Arial, sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+      }
+
+      .overlay h1 {
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .social-media {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .social-media a {
+        display: inline-block;
+        margin-right: 10px;
+        color: #fff;
+        font-size: 20px;
+      }
+
+      /* Media Queries */
+      @media (max-width: 767px) {
+
+        /* Styles for mobile devices */
+        header {
+          padding: 10px;
+        }
+
+        .overlay h1 {
+          font-size: 30px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        /* Styles for tablets and larger screens */
+      }
+
+      @media (min-width: 992px) {
+        /* Styles for medium-sized and larger screens */
+      }
+
+      @media (min-width: 1200px) {
+        /* Styles for large screens */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background-image"></div>
+    <div class="overlay">
+      <h1>Stop Fiction, <br> start Action.</br>
+      </h1>
+    </div>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://netphoria.github.io/">Home</a>
+          </li>
+          <li>
+            <a href="https://netphoria.github.io/netphoria-whoami.github.io/">Whoami</a>
+          </li>
+          <li>
+            <a href="https://netphoria.github.io/netphoria-services.github.io/">Services</a>
+          </li>
+          <li>
+            <a href="https://netphoria.github.io/netphoria-work.github.io/">Work</a>
+          </li>
+          <li>
+            <a href="mailto:lovmmusic@gmail.com">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Rest of your website content goes here -->
+    <div class="social-media">
+      <a href="https://www.twitch.com/netph0ria" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1109865813558698117/1116289667369799750/twitch_1.png" alt="Twitch">
+      </a>
+      <a href="https://www.instagram.com/netph0ria" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1109865813558698117/1116292736597901362/instagram_1_1.png" alt="Instagram">
+      </a>
+      <a href="https://www.youtube.com/@netphoria" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1109865813558698117/1116294956206792724/youtube_3.png" alt="YouTube">
+      </a>
+      <a href="https://twitter.com/netph0ria" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1109865813558698117/1116293890803236894/twitter-sign_1.png" alt="Twitter">
+      </a>
+      <a href="https://www.reddit.com/user/netphoria" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1109865813558698117/1116293963461165056/reddit_2_1.png" alt="Reddit">
+      </a>
+    </div>
+  </body>
+</html>
